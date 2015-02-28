@@ -1,0 +1,12 @@
+{% extends "search.html" %}
+
+{% block title %}Danielle's Writing Prompt Generator{% endblock %}
+
+{% block bodyclass %}different{% endblock %}
+
+{% block results %}
+        
+        <ul class="no-bullet">
+    {{ api_data }}
+        </ul>
+{% endblock %}

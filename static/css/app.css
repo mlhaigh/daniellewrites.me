@@ -1,0 +1,14 @@
+/* app.css */
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: white url(http://www.writersedit.com/wp-content/uploads/2013/12/the-little-prince.jpg) no-repeat fixed center center;
+}
+
+body.different {
+    background: black url(http://fc07.deviantart.net/fs38/f/2008/313/b/3/Little_Prince_Wallpaper_by_Ninepoint.png) no-repeat fixed center center;
+}
